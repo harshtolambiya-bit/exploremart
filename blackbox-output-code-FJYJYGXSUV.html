@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ExploreMart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ExploreMart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/product1.jpg" alt="Moisturizer">
+                <h3>Hydrating Moisturizer</h3>
+                <p>$25.99</p>
+                <button onclick="addToCart('Hydrating Moisturizer', 25.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="Lipstick">
+                <h3>Red Lipstick</h3>
+                <p>$15.99</p>
+                <button onclick="addToCart('Red Lipstick', 15.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/product3.jpg" alt="Shampoo">
+                <h3>Volumizing Shampoo</h3>
+                <p>$12.99</p>
+                <button onclick="addToCart('Volumizing Shampoo', 12.99)">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 ExploreMart. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
